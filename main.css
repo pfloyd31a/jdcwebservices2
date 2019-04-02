@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+/* Individual */
+.banner {
+  display: grid;
+  grid-template-columns: 1264px;
+  grid-template-rows: 60px;
+  background-color: #1f202b;
+}
+
+.name {
+  position: absolute;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+#myPortfolio {
+  position: absolute;
+  top: 20px;
+  left: 824px;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+#about {
+  position: absolute;
+  top: 20px;
+  left: 980px;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+#contact {
+  position: absolute;
+  top: 20px;
+  left: 1100px;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+.links {
+  position: absolute;
+  list-style: none;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1264px;
+  grid-template-rows:  653px;
+}
+
+.hiThere {
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  color: #EDE2E2;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.tagline {
+  position: absolute;
+  top: 260px;
+  left: 800px;
+  color: #1f202b;
+  font-size: 29px;
+  width: 400px;
+  font-family: 'Alegreya', serif;
+}
+
+.myPortfolioSection {
+  display: grid;
+  grid-template-columns: 1264px;
+  grid-template-rows: 110px;
+  background-color: #1F202B;
+}
+
+#portfolio {
+  position: absolute;
+  left: 535px;
+  top: 720px;
+  font-size: 40px;
+  color: #DDC5C5;
+  font-family: 'Alegreya', serif;
+}
+
+#myPortfolio {
+  position: absolute;
+  color: #EDE2E2;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+.rogue {
+  position: absolute;
+  top: 813px;
+  display: grid;
+  grid-template-columns: 632px 632px;
+  grid-template-rows: 500px;
+  background-color: #1F202B;
+}
+
+#roguePicture {
+  position: absolute;
+  top: 75px;
+  left: 41px;
+}
+
+.rogueTitle {
+  position: absolute;
+  top: 55px;
+  left: 820px;
+  color: #EDE2E2;
+  font-size: 30px;
+  font-family: 'Alegreya', serif;
+}
+
+.rogueSubTitle {
+  position: absolute;
+  top: 100px;
+  left: 805px;
+  color: #fe2787;
+  font-size: 17px;
+  font-family: 'Alegreya', serif;
+}
+
+.rogueParagraph {
+  position: absolute;
+  top: 130px;
+  left: 730px;
+  color: #ef801f;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  width: 480px;
+}
+
+.jubileeAusten {
+  position: absolute;
+  top: 500px;
+  display: grid;
+  grid-template-columns: 632px 632px;
+  grid-template-rows: 500px;
+  background-color: #1F202B;
+}
+
+.jubileeTitle {
+  position: absolute;
+  top: 55px;
+  left: 120px;
+  color: #EDE2E2;
+  font-size: 30px;
+  font-family: 'Alegreya', serif;
+}
+
+.jubileeSubTitle {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+  color: #fe2787;
+  font-size: 17px;
+  font-family: 'Alegreya', serif;
+}
+
+.jubileeParagraph {
+  position: absolute;
+  top: 130px;
+  left: 41px;
+  color: #ef801f;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  width: 480px;
+}
+
+#jubileePicture {
+  position: absolute;
+  top: 575px;
+  left: 673px;
+}
+
+.holstee {
+  position: absolute;
+  top: 1000px;
+  display: grid;
+  grid-template-columns: 632px 632px;
+  grid-template-rows: 500px;
+  background-color: #1F202B;
+}
+
+#holsteePicture {
+  position: absolute;
+  top: 75px;
+  left: 41px;
+}
+
+.holsteeTitle {
+  position: absolute;
+  top: 55px;
+  left: 840px;
+  color: #EDE2E2;
+  font-size: 30px;
+  font-family: 'Alegreya', serif;
+}
+
+.holsteeSubTitle {
+  position: absolute;
+  top: 100px;
+  left: 865px;
+  color: #fe2787;
+  font-size: 17px;
+  font-family: 'Alegreya', serif;
+}
+
+.holsteeParagraph {
+  position: absolute;
+  top: 130px;
+  left: 730px;
+  color: #ef801f;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  width: 480px;
+}
+
+#aboutMe {
+  display: grid;
+  grid-template-columns: 632px 632px;
+  grid-template-rows: 600px;
+  position: absolute;
+  top: 2290px;
+  background-color: #2c202c ;
+}
+
+.airbus {
+  position: absolute;
+  top: 120px;
+  left: 643px;
+}
+
+.aboutMeHeading {
+  position: absolute;
+  left: 540px;
+  color: #DDC5C5;
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+}
+
+.aboutMeParagraph {
+  position: absolute;
+  top: 120px;
+  left: 41px;
+  text-align: justify;
+  font-size: 24px;
+  width: 400px;
+  font-family: 'Alegreya', serif;
+  color: #DDC5C5;
+}
+
+#skillcrush {
+  color: #ef801f;
+}
+
+#contactMe {
+  display: grid;
+  grid-template-columns: 632px 632px;
+  grid-template-rows: 450px;
+  position: absolute;
+  top: 2890px;
+  background-color: #2c202c;
+}
+
+#contact2 {
+  position: absolute;
+  top: 20px;
+  left: 520px;
+  color: #DDC5C5;
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+}
+
+.phone {
+  position: absolute;
+  left: 120px;
+  top: 280px;
+  color: #ef801f;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.email {
+  position: absolute;
+  left: 960px;
+  top: 280px;
+  color: #ef801f;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.twitter {
+  position: absolute;
+  top: 220px;
+  left: 620px;
+}
+
+.twitterLink {
+  position: absolute;
+  top: 285px;
+  left: 570px;
+  color: #fe2787;
+  font-size: 17px;
+  font-family: 'Alegreya', serif;
+}
+
+.jc2019 {
+  position: absolute;
+  top: 370px;
+  left: 550px;
+  color: #EDE2E2;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}
